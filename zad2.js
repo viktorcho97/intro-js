@@ -1,7 +1,7 @@
 function calcSumAndVat(arr){
 	let sum = 0;
 	for(let price of arr){
-		sum +- Number(price);
+		sum += Number(price);
 	}
 	console.log({sum});
 

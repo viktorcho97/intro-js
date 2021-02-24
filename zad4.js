@@ -4,7 +4,7 @@ function figureArea([w, h, W, H]){
 
 	let commonArea = Math.min(Number(w), Number(W)) * Math.min(Number(h), Number(H));
 
-	let figure = fig1Area + fig2Area - commonArea;
+	let figureArea = fig1Area + fig2Area - commonArea;
 
 	console.log(figureArea);
 }

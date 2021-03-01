@@ -9,3 +9,5 @@ function stringOfNumbers(lastNum){
 
 stringOfNumbers(10);
 stringOfNumbers(20);
+stringOfNumbers(30);
+stringOfNumbers(40);

@@ -1,10 +1,15 @@
-function isPrime(value) {
+function isSimple(value) {
+	let count = 0;
     for(var i = 2; i < value; i++) {
         if(value % i === 0) {
-            return false;
+            count++;
+            break;
         }
     }
-    return value > 1;
+    if (count == 0) 
+    console.log("Числото е просто");
+    else 
+    console.log("Числото не е просто");
 }
 
-isPrime('8');
+isSimple(6);
